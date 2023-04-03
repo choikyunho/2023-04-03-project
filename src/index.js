@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode> // calendar에서 console이 2번 찍히는 이유
 );
 
 // If you want to start measuring performance in your app, pass a function
